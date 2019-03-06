@@ -5,7 +5,7 @@ Implementation of a NoSQL database model, with added functions that allows user 
 * dbservice: Contains a simple dataservice.py implementing retrieve_by_template. This performs a SELECT to retrieve data from a table.
 * redis_cache: The file data_cache.py contains some helper functions for getting (key, value) data into and out of Redis. The functions check_query_cache() and add_to_query_cache() are called upon user query of database. Returns a "Cache Hit" (with the data retrived from the cache) if the query exists in the cache, or a "Cache Miss" if the data does not exist in the cache. 
 * social_graph:
-** The file fan_comment_template.py contains a class with methods for creating and retrieving relationships and nodes from Neo4j.
+  * The file fan_comment_template.py contains a class with methods for creating and retrieving relationships and nodes from Neo4j.
 The node types are: Fan, Player, Team, Comment.
 *** The relationship types are:
 **** APPEARED: A Player appeared for a Team.
